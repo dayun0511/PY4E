@@ -16,7 +16,7 @@ for lin in hand:
 # 카운터의 모든 값이 양수이므로 초기 값을 음수로 정하는 것이 괜찮은 방법이다.
 largest = -1
 theword = None
-for k,v in di.item():
+for k,v in di.items():
     # print(k,v)
     if v > largest:
         largest = v
